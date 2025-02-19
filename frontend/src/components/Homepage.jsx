@@ -1,44 +1,44 @@
 import React from 'react';
+import MyCarousel from './Homepage/Carousel';
+import MissionVision from './Homepage/MissionVision';
+import Announcement from './Homepage/Annoucement';
+import MyCalendar from './Homepage/Calendar';
+import Programs from './Homepage/Programs';
+import Carousel from './Carousel1';
+
+const slides = [
+    "https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg",
+    "https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg",
+    "https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg",
+    "https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg",
+    "https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg"
+]
+
+
 
 const Homepage = () => {
     return (
+        
         <div>
-            <section className="bg-white dark:bg-gray-900">
-                <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-                    <div className="mr-auto place-self-center lg:col-span-7">
-                        <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Payments tool for software companies</h1>
-                        <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.</p>
-                        <a href="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-                            Get started
-                            <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                        </a>
-                        <a href="#" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                            Speak to Sales
-                        </a> 
-                    </div>
-                    <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                        <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup"/>
-                    </div>                
-                </div>
-            </section>
+            
+            <MyCarousel/>
+            <MissionVision/>
+            <Announcement/>
+            <MyCalendar/>
+            <Programs/>
 
-            <section className="bg-white dark:bg-gray-900">
-                <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-                    <div className="max-w-screen-md">
-                        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Let's find more that brings us together.</h2>
-                        <p className="mb-8 font-light text-gray-500 sm:text-xl dark:text-gray-400">Flowbite helps you connect with friends, family and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups, Watch and Marketplace.</p>
-                        <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
-                            <a href="#" className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-                                Get started
-                            </a>
-                            <a href="#" className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
-                                <svg className="mr-2 -ml-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path></svg>
-                                View more
-                            </a>  
-                        </div>
-                    </div>
-                </div>
-            </section>
+            {/* <section>
+            <main className='Homepage'>
+            <div className="max-w-lg">
+            <Carousel autoslide={true}>
+                {slides.map((s) => (
+                    <img src={s} />
+                ))}
+            </Carousel>
+         </div>
+
+        </main>
+            </section> */}
         </div>
     );
 };
