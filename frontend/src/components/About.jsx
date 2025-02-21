@@ -2,14 +2,13 @@ import React from 'react';
 
 const About = () => {
 return (
-    <div>
+    <div className='w-full max-w-auto mx-auto py-4 px-8 '>
         <section className="bg-white dark:bg-gray-900">
             <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-                <img className="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
-                <img className="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image"/>
+                <img className="w-full" src="https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg" alt="dashboard image"/>
                 <div className="mt-4 md:mt-0">
-                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Let's create more tools and ideas that brings us together.</h2>
-                    <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</p>
+                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Graystone Institute of the Philippines</h2>
+                    <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum magnam facere dicta enim nobis maxime, debitis culpa ab nostrum provident. Natus architecto labore blanditiis at cumque nulla dolorum porro fugit.</p>
                     <a href="#" className="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
                         Get started
                         <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
@@ -22,18 +21,18 @@ return (
             <div className="py-8 mx-auto max-w-screen-xl">
                 <div className="text-center">
                     <h2 className="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Organizational Chart</h2>
-                    <p className="mt-2 text-lg text-gray-500 dark:text-gray-400">We are committed to building a platform that helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</p>
+                    <p className="mt-2 text-lg text-gray-500 dark:text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit vitae eveniet nulla quae harum eos quis dolor amet laboriosam eum illum, quam minus maxime. Sint quibusdam cum necessitatibus consequuntur totam!.</p>
                 </div>
             </div>
             <div className='grid grid-cols-1 gap-8 px-4 py-8 mx-auto max-w-screen-xl sm:grid-cols-1 md:grid-cols-2'>
-                <img className="w-full col-span-2 h-24" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
-                <img className="w-full col-span-2 h-24" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
-                <img className="w-full h-24" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
-                <img className="w-full h-24" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
-                <img className="w-full h-24" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
-                <img className="w-full h-24" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
-                <img className="w-full h-24" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
-                <img className="w-full h-24" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
+                <img className="w-24 rounded-full flex justify-self-center col-span-2 h-24" src="https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg" alt="dashboard image"/>
+                <img className="w-24 rounded-full flex justify-self-center col-span-2 h-24" src="https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg" alt="dashboard image"/>
+                <img className="w-24 rounded-full flex justify-self-center h-24" src="https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg" alt="dashboard image"/>
+                <img className="w-24 rounded-full flex justify-self-center h-24" src="https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg" alt="dashboard image"/>
+                <img className="w-24 rounded-full flex justify-self-center h-24" src="https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg" alt="dashboard image"/>
+                <img className="w-24 rounded-full flex justify-self-center h-24" src="https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg" alt="dashboard image"/>
+                <img className="w-24 rounded-full flex justify-self-center h-24" src="https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg" alt="dashboard image"/>
+                <img className="w-24 rounded-full flex justify-self-center h-24" src="https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg" alt="dashboard image"/>
             </div>
         </section>
 
@@ -78,30 +77,30 @@ return (
         <section>
             <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6'>
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Developer</h2>
-                <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
+                <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt facere maiores excepturi iure voluptates reiciendis eos! Modi sapiente expedita, minus adipisci quam necessitatibus atque magnam hic, quod voluptate incidunt amet.</p>
                 <div className='grid grid-cols-1  sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-6'>
-                    <div>
-                        <img className="w-full h-24 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
+                    <div className='flex justify-center items-center flex-col'>
+                        <img className="w-25 h-25 rounded-full" src="https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg"/>
                         <blockquote>Developer 1</blockquote>
                     </div>
-                    <div>
-                        <img className="w-full h-24 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
+                    <div className='flex justify-center items-center flex-col'>
+                        <img className="w-25 h-25 rounded-full" src="https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg"/>
                         <blockquote>Developer 1</blockquote>
                     </div>
-                    <div>
-                        <img className="w-full h-24 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
+                    <div className='flex justify-center items-center flex-col'>
+                        <img className="w-25 h-25 rounded-full" src="https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg"/>
                         <blockquote>Developer 1</blockquote>
                     </div>
-                    <div>
-                        <img className="w-full h-24 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
+                    <div className='flex justify-center items-center flex-col'>
+                        <img className="w-25 h-25 rounded-full" src="https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg"/>
                         <blockquote>Developer 1</blockquote>
                     </div>
-                    <div>
-                        <img className="w-full h-24 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
+                    <div className='flex justify-center items-center flex-col'>
+                        <img className="w-25 h-25 rounded-full" src="https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg"/>
                         <blockquote>Developer 1</blockquote>
                     </div>
-                    <div>
-                        <img className="w-full h-24 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
+                    <div className='flex justify-center items-center flex-col'>
+                        <img className="w-25 h-25 rounded-full" src="https://sgimage.netmarble.com/images/netmarble/sololv/20240105/kpf91704430388393.jpg"/>
                         <blockquote>Developer 1</blockquote>
                     </div>
                 </div>

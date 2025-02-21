@@ -2,7 +2,7 @@ import React from 'react';
 
 const Programs = () => {
   return (
-    <div>
+    <div className='w-full max-w-auto mx-auto py-4 px-8 '>
          <section className="bg-gray-100 dark:bg-gray-900" >
             <div className="gap-4  text-center items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6" >
                 <div className="font-light text-gray-900 sm:text-lg dark:text-gray-400 col-span-2" >
