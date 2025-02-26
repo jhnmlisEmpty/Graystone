@@ -27,7 +27,7 @@ const MyCalendar = () => {
 
   return (
     <div className=''>
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-auto mx-auto py-4 px-8 ">
+        <div className="bg-gray-100 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-auto mx-auto py-4 px-8 ">
             <div className="text-center">
                 {events[formatDate(date)] ? (
                 events[formatDate(date)].map((event, index) => (
@@ -39,7 +39,7 @@ const MyCalendar = () => {
                 ) : (
                 <div className="grid place-items-center min-h-full">
                     <p className="mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-                      No events for this date.
+                      No announcement for this date.
                     </p>
                 </div>
                 )}
