@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import Calendar from 'react-calendar';
-import 'react-calendar/dist/Calendar.css';
+// import Calendar from 'react-calendar';
+// import 'react-calendar/dist/Calendar.css';
 
 const MyCalendar = () => {
   const [date, setDate] = useState(new Date());
   const events = {
     '2025-02-19': [{ title: 'Assessment', description: 'Computer System Servicing Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, adipisci! Sunt, sit? Voluptatibus, quas voluptates repellat dolore harum iste quos nostrum impedit assumenda earum! Necessitatibus nesciunt dicta provident expedita quasi.' }],
     '2025-02-20': [{ title: 'Assessment', description: 'Event Management Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, adipisci! Sunt, sit? Voluptatibus, quas voluptates repellat dolore harum iste quos nostrum impedit assumenda earum! Necessitatibus nesciunt dicta provident expedita quasi.' }],
+    '2025-02-26': [{ title: 'Assessment', description: 'Food and Beverage Services Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, adipisci! Sunt, sit? Voluptatibus, quas voluptates repellat dolore harum iste quos nostrum impedit assumenda earum! Necessitatibus nesciunt dicta provident expedita quasi.' }],
   };
 
   const onChange = (newDate) => {

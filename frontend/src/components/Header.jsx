@@ -12,8 +12,11 @@ const Header = () => {
     <header className="sticky top-0 bg-red-600 text-white py-4 px-6 flex justify-between items-center shadow-md z-50">
       {/* Left side: Logo and Name */}
       <div className="flex items-center gap-3">
-        <img src="/GIP LOGO.jpg" alt="Logo" className="h-10 w-10" />
-        <span className="text-xl font-bold">Graystone Institute of the Philippines</span>
+        <img src="/GIP LOGO.jpg" alt="Logo" className="h-15 w-15 rounded-full" />
+        <div className='flex flex-col'>
+          <span className="text-xl font-bold">Graystone Institute of the Philippines</span>
+          <span className="text-sm">(Training and Assessment Center), INC.</span>
+        </div>
       </div>
 
       {/* Right side: Navigation */}
@@ -46,7 +49,7 @@ const Header = () => {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden absolute top-16 left-0 w-full bg-red-600 text-white flex flex-col items-center gap-4 py-4">
+        <div className="md:hidden absolute top-20 left-0 w-full bg-red-600 text-white flex flex-col items-center gap-4 py-4">
           <Link to="/" className="hover:underline">Home</Link>
           <Link to="/accreditations" className="hover:underline">Accreditations</Link>
           <Link to="/about" className="hover:underline">About</Link>
