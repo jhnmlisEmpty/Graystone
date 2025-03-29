@@ -17,6 +17,7 @@
     "@tailwindcss/vite": "^4.0.6",
     "flowbite": "^3.1.2",
     "react": "^19.0.0",
+    "react-calendar": "^5.1.0",
     "react-dom": "^19.0.0",
     "react-feather": "^2.0.10",
     "react-pageflip": "^2.0.3",

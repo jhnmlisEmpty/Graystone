@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-// import Calendar from 'react-calendar';
-// import 'react-calendar/dist/Calendar.css';
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 
 const MyCalendar = () => {
   const [date, setDate] = useState(new Date());
@@ -33,13 +33,13 @@ const MyCalendar = () => {
                 {events[formatDate(date)] ? (
                 events[formatDate(date)].map((event, index) => (
                     <div key={index} className="px-4 py-4 pl-16">
-                    <h3 className='mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>{event.title}</h3>
-                    <p className='mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400'>{event.description}</p>
+                    <h3 className='mb-4 text-4xl tracking-tight font-extrabold text-gray-900 '>{event.title}</h3>
+                    <p className='mb-6 font-light text-gray-500 md:text-lg '>{event.description}</p>
                     </div>
                 ))
                 ) : (
                 <div className="grid place-items-center min-h-full">
-                    <p className="mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                    <p className="mb-4 text-2xl tracking-tight font-extrabold text-gray-900 ">
                       No announcement for this date.
                     </p>
                 </div>
