@@ -83,7 +83,7 @@ const Accreditations = () => {
                         </div>
 
                         <div className="overflow-x-auto relative shadow-md sm:rounded-lg">
-                                <div className='mb-2'>
+                                <div className='mb-2 mt-10'>
                                         <p className="font-bold text-gray-500 sm:text-xl">SAN JACINTO</p>  
                                 </div>
                         <table className="w-full text-sm text-center text-gray-500">
