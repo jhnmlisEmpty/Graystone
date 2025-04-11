@@ -13,8 +13,8 @@ const Homepage = () => {
         <div>
             <MyCarousel/>
             <MissionVision/>
-            <Announcement/>
-            <MyCalendar/>
+            {/* <Announcement/> */}
+            {/* <MyCalendar/> */}
             <Programs/>
             {/* <FlipBook/> */}
         </div>

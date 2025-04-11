@@ -23,7 +23,7 @@ const Header = () => {
       <nav className="hidden md:flex gap-6">
         <Link to="/" className="hover:underline">Home</Link>
         <Link to="/accreditations" className="hover:underline">Accreditations</Link>
-        <Link to="/about" className="hover:underline">About</Link>
+        {/* <Link to="/about" className="hover:underline">About</Link> */}
       </nav>
 
       {/* Mobile menu button */}
@@ -52,7 +52,7 @@ const Header = () => {
         <div className="md:hidden absolute top-27 left-0 w-full bg-red-600 text-white flex flex-col items-center gap-4 py-4">
           <Link to="/" className="hover:underline">Home</Link>
           <Link to="/accreditations" className="hover:underline">Accreditations</Link>
-          <Link to="/about" className="hover:underline">About</Link>
+          {/* <Link to="/about" className="hover:underline">About</Link> */}
         </div>
       )}
     </header>
